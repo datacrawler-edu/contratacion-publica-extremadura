@@ -2,7 +2,7 @@
 
 Base de datos de contratación pública de la Comunidad Autónoma de Extremadura. Datos extraídos de fuentes oficiales, procesados y listos para reutilizar.
 
-Explora los datos en el portal web: **[transparenciaextremadura.es](https://transparenciaextremadura.es)**
+Explora los datos en el portal web: **[datosextremadura.com](https://datosextremadura.com)**
 
 ---
 
@@ -202,4 +202,4 @@ Este repositorio se publica sin restricciones adicionales — úsalos libremente
 ## Contacto
 
 [@edu_seo_scraper](https://x.com/edu_seo_scraper) en X/Twitter  
-Portal web: [transparenciaextremadura.es](https://transparenciaextremadura.es)
+Portal web: [datosextremadura.com](https://datosextremadura.com)
