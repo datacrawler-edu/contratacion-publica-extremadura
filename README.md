@@ -8,20 +8,27 @@ Explora los datos en el portal web: **[datosextremadura.com](https://datosextrem
 
 ## Descarga
 
-La base de datos se distribuye como archivo SQLite (`.db`) adjunto en cada [Release](https://github.com/datacrawler-edu/contratacion-publica-extremadura/releases).
+Todos los archivos están disponibles en cada [Release](https://github.com/datacrawler-edu/contratacion-publica-extremadura/releases).
+
+### Base de datos completa
 
 | Archivo | Descripción | Tamaño aprox. |
 |---|---|---|
-| `transparencia_extremadura.db` | Base de datos SQLite completa | ~450 MB |
+| `transparencia_extremadura.db` | Base de datos SQLite completa con todas las tablas | ~450 MB |
 
-### Cómo descargar
+Recomendada para análisis avanzados, consultas SQL personalizadas o integración en otras aplicaciones. Requiere [SQLite](https://www.sqlite.org/) o cualquier herramienta compatible (DBeaver, DB Browser for SQLite, Python, R…).
 
-```bash
-# Desde la línea de comandos (última versión)
-gh release download --repo datacrawler-edu/contratacion-publica-extremadura --pattern "*.db"
-```
+### Exportaciones CSV
 
-O descarga manualmente desde la pestaña [Releases](https://github.com/datacrawler-edu/contratacion-publica-extremadura/releases).
+Para usuarios que prefieren trabajar con hojas de cálculo o herramientas sin SQL. Separador: `;`. Codificación: UTF-8 con BOM (compatible con Excel).
+
+| Archivo | Descripción | Filas | Tamaño aprox. |
+|---|---|---|---|
+| `contratos.csv` | Contratos y licitaciones con órgano y empresa adjudicataria | 114.851 | ~46 MB |
+| `empresas.csv` | Empresas adjudicatarias con estadísticas agregadas | 19.286 | ~2 MB |
+| `organos.csv` | Órganos contratantes con estadísticas agregadas | 1.184 | ~0.1 MB |
+| `personas.csv` | Personas con cargos en empresas adjudicatarias (BORME) | 177.483 | ~7 MB |
+| `cargos.csv` | Relación persona–empresa con cargo y período | 336.553 | ~37 MB |
 
 ---
 
